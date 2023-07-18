@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+</head>
+<body>
+	<h1>Реєстраційна форма</h1>
+    <form action="registration.php" method="post">
+    	<div>
+	        <label for="username">Ім'я користувача:</label>
+	        <input placeholder="Ім'я" type="text" id="username" name="username" required>
+      </div> 
+        
+      <div> 
+	        <label for="password">Пароль:</label>
+	        <input placeholder="Пароль" type="password" id="password" name="password" required>
+      </div>  
+        
+        <div>
+	        <label for="newsletter">
+	            <input type="checkbox" id="newsletter" name="newsletter">
+	            Підписатися на розсилку
+	        </label>
+        </div>
+
+        <div>
+	        <label for="option">
+	        		<p><input type="radio" name="Agreement" value="yes">Згоден</p>
+	        		<p><input type="radio" name="Agreement" value="no">Не згоден</p>
+	        </label>
+        </div>
+ 
+        
+        <input type="submit" value="Зареєструватися">
+    </form>
+	
+</body>
+</html>
