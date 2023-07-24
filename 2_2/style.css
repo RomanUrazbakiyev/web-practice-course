@@ -1,0 +1,77 @@
+body {
+  background: url(./img/stars.jpg);
+  font-family: Arial, sans-serif;
+  color: whitesmoke;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: rgba(9, 73, 94, 0.401);
+  padding: 20px;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(87, 10, 10, 0.46);
+  padding: 10px;
+  text-align: center;
+}
+
+.nav a {
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.box {
+  width: 200px;
+  padding: 20px;
+  background-color: rgba(10, 81, 105, 0.341);
+  margin: 20px;
+}
+
+.box-1 {
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.box-1:hover{
+  overflow: auto;
+}
+.box-2 {
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.box-2:hover{
+  overflow: auto;
+}
+.box-3 {
+  width: 250px;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.box-3:hover{
+  overflow: auto;
+}
+.footer {
+  margin-top: 120px;
+  background-color:rgba(9, 73, 94, 0.401);
+  padding: 10px;
+  text-align: center;
+}
