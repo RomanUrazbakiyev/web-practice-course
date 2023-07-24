@@ -1,0 +1,45 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: lightgray;
+}
+.h{
+	text-align: center;
+}
+h1 {
+	color: darkblue;
+}
+
+p {
+	font-size: 18px;
+	color: darkgreen;
+	text-align: center;
+}
+section{
+	display: flex;
+	justify-content: space-around;
+	height: 325px;
+}
+.sec {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 200px;
+	height: 300px;
+	background-color: blueviolet;
+}
+.nav {
+	display: flex;
+	background-color: lightblue;
+	padding: 15px;
+	justify-content: space-around;
+}
+
+.nav a {
+	color: darkred;
+	text-decoration: none;
+	/* margin: 0 10px; */
+}
+
+.nav a:hover {
+	text-decoration: underline;
+}
