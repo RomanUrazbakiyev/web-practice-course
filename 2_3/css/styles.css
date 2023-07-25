@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Borel";
+    src: url("./fonts/Borel-Regular.ttf") format("ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(180, 166, 182);
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: 'Georgia', serif;
+  margin-bottom: 20px;
+}
+h1{
+    text-shadow: 5px 10px 3px rgb(101 24 24 / 26%);
+}
+h2{
+    text-decoration: underline;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-weight: bold;
+}
+h5{
+    text-decoration: underline
+}
+h6{
+    text-transform: capitalize
+}
+img {
+    border-radius: 20px;
+}
+.fancy-text {
+  font-family: "Borel", sans-serif; 
+  font-style: italic; 
+  font-size: 2.5em;
+  line-height: 1.6;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.shadow {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
