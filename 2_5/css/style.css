@@ -1,0 +1,92 @@
+body{
+    background-image: url(../img/pingviny-arktichni.jpg);
+    background-size: cover;
+    font-size: 20px;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    color: rgb(16, 16, 76);
+    font-size: 4rem;
+    text-align: center;
+}
+p {
+    font-family: Arial, sans-serif;
+}
+a[target="_blank"] {
+    text-decoration: underline;
+    color: brown;
+}
+div{
+    border-radius: 20px;
+}
+.first{
+    text-align: center;
+}
+.upper-left, .upper-right{
+    text-align: center;
+    display: inline-block;
+    width: 45%;
+    height: 100px;
+    background-color: rgba(84, 136, 179, 0.675);
+    overflow: hidden;
+}
+
+#example {
+    text-decoration: underline;
+}
+.highlight {
+    background-color: rgb(47, 76, 181);
+}
+section > h2 {
+    color: rgb(16, 16, 76);
+}
+.bottom-left, .bottom-right{
+    width: 23%;
+    height: 500px;
+    display: inline-block;
+    background-color: rgba(91, 120, 205, 0.464);
+
+}
+.bottom-left{
+    border-radius: 20px 0 0 20px;
+    background-image: url(../img/pingui.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bottom-right{
+    border-radius: 0 20px 20px 0;
+    background-image: url(../img/slap.gif);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.bottom-center{
+    display: inline-block;
+    width: 38%;
+    height: 500px;
+    background-color: rgba(192, 202, 231, 0.804);
+    border-radius: 0;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-style: normal;
+}
+.bottom-center:hover{
+    overflow: auto;
+}
+@media(max-width: 767px){
+    .bottom-left, .bottom-right{
+        display: none;
+    }
+    .bottom-center{
+        width: 90%;
+    }
+    .upper-left:hover{
+    overflow: auto;
+    } 
+    .upper-right:hover{
+        overflow: auto;
+    }
+}
