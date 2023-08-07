@@ -1,0 +1,41 @@
+body{
+    background-image: url("../img/matrix-wallpaper.jpg");
+    background-size: cover;
+}
+.hot-dog{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url(../img/eating-hot-dog.gif);
+    background-size: cover;
+}
+h2, h5, p, .btn{
+    color: aliceblue;
+}
+.option{
+    background-color: rgba(0, 0, 0, 0.675);
+}
+.card-body{
+    background-color: rgba(15, 120, 36, 0.697);
+}
+
+.red{
+    
+    color: red;
+}
+.blue{
+    
+    color: blue;
+}
+.a{
+    text-align: center;
+}
+.btn-secondary{
+    background-color: red;
+}
+.body-3{
+    text-align: center;
+}
+.btn-third{
+    background-color: rgb(36, 144, 34);
+}
