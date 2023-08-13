@@ -1,0 +1,113 @@
+body{
+  text-align: center;
+  padding: 10px;
+  background-color: #e0e0e0;
+}
+main{
+  text-align: center;
+  background-image: url(../img/london.jpg);
+  background-size: cover;
+}
+
+.name{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 28px;
+  font-style: normal;
+  color: rgb(215, 215, 228);
+  margin-top: 40px;
+}
+section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.photo-1, .photo-2, .photo-3{
+  width: 350px;
+  height: 300px;
+  border-radius: 20px;
+  border: 2px solid rgb(69, 69, 71);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.photo-1{
+  background-image: url(../img/sherlock.jpg);
+    
+}
+.photo-2{
+  background-image: url(../img/watson.jpg);
+    
+}
+.photo-3{
+  background-image: url(../img/Moryarty.jpg);
+    
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Стилі для кнопок та чекбоксів */
+.modal-button {
+  background-color: #505254;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.modal-button:hover{
+  background-color: #888;
+}
+
+.modal-toggle {
+  display: none;
+}
+
+/* Стилі для модальних вікон */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: auto;
+}
+
+.modal-toggle:checked + .modal {
+  display: block;
+}
+
+.modal-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 400px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.close-button {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+@media(min-width: 320px) and (max-width: 767px){
+  .photo-1, .photo-2, .photo-3{
+    width: 250px;
+    height: 220px;
+  }
+
+}
