@@ -1,0 +1,116 @@
+body{
+  background-image: url(../img/stage.jpg);
+  background-size: cover;
+  color: rgb(253, 253, 253);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 1fr auto; 
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:  
+  "header header header header"
+  "nav nav aside aside"
+  "main main main main"
+  "footer footer footer footer";
+  grid-gap: 20px;
+}
+header, nav, main, aside, footer{
+  border-radius: 20px;
+  text-align: center;
+  background-color: #18134e74;
+}
+header {
+  grid-area: header;
+  padding: 5px;
+}
+
+nav {
+  height: auto;
+  grid-area: nav;
+  padding: 20px;
+}
+.navigation{
+  font-size: 20px;
+}
+aside{
+  width: 200px;
+  height: 200px;
+  background-image: url(../img/Monkeys.jpg);
+  background-size: cover;
+  grid-area: aside;
+  padding: 20px;
+}
+main{
+  grid-area: main;
+  height: auto;
+  padding: 20px;
+}
+.first-section{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.alex, .matt, .jamie, .nick{
+  background-size: cover;
+  width: 200px;
+  height: 300px;
+  border-radius: 20px;
+}
+.alex{
+  background-image: url(../img/alex.jpg);
+}
+.matt{
+  background-image: url(../img/matt.jpg);
+}
+.jamie{
+  background-image: url(../img/jamie.jpg);
+}
+.nick{
+  background-image: url(../img/nick.jpg);
+}
+.second-section{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cover-1, .cover-2, .cover-3, .cover-4, .cover-5, .cover-6, .cover-7{
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+.cover-1{
+  background-image: url(../img/cover-1.jpg); 
+}
+.cover-2{
+  background-image: url(../img/cover-2.jpg);
+}
+.cover-3{
+  background-image: url(../img/cover-3.jpg);
+}
+.cover-4{
+  background-image: url(../img/cover-4.jpg);
+}
+.cover-5{
+  background-image: url(../img/cover-5.jpg);
+}
+.cover-6{
+  background-image: url(../img/cover-6.jpg);
+}
+.cover-7{
+  background-image: url(../img/cover-7.jpg);
+}
+.third-section{
+  height: 300px;
+  padding: 20px;
+  font-size: 18px;
+  overflow: hidden;
+}
+.third-section:hover{
+  overflow: auto;
+}
+footer {
+  grid-area: footer;
+  padding: 20px;
+}
